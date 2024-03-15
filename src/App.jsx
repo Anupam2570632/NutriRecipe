@@ -64,7 +64,7 @@ function App() {
         <HiBars3CenterLeft className='text-[30px] hover:cursor-pointer md:hidden block' />
 
         <h1 className='text-3xl hover:cursor-pointer font-bold text-[#150B2B]'>
-          Recipe Calories
+          NutriRecipe
         </h1>
 
         <ul className='hidden md:flex list-none gap-8 text-[#150B2BB2]'>
