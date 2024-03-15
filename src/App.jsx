@@ -95,7 +95,7 @@ function App() {
             Discover an exceptional cooking class tailored for you!
           </h1>
           <p className='max-w-[850px] mx-auto font-size[18px] text-gray-300'>
-            Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.
+            Indulge in culinary creativity! Discover enticing recipes, expert tips, and step-by-step guidance. Let your taste buds explore a world of flavors with our curated culinary delights.
           </p>
           <div className='flex flex-col md:flex-row items-center justify-center gap-6 pt-4'>
             <button className='hover:bg-cyan-700 hover:text-white duration-300 px-7 py-5 text-[20px] rounded-full bg-[#0BE58A] font-semibold border-none'>Explore Now</button>
@@ -106,16 +106,17 @@ function App() {
 
 
       {/* main section */}
-      <main className='my-[50px] md:my-[100px]'>
+      <main className='my-[50px]  w-11/12 md:w-4/5 mx-auto md:my-[100px] space-y-10'>
         <h1 className='text-[#150B2B] font-semibold text-[40px] text-center'>
           Our Recipes
         </h1>
         <p className='text-[#150B2B99] max-w-[800px] mx-auto text-center'>
-          Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque.
+          Explore Our Recipes: Dive into a diverse array of mouthwatering dishes. From classics to innovative creations, find inspiration for every mealtime adventure.
         </p>
+        <hr />
 
 
-        <div className='flex flex-col lg:flex-row gap-6 w-11/12 md:w-4/5 mx-auto'>
+        <div className='flex flex-col lg:flex-row gap-6 mx-auto'>
           <div className='lg:w-[60%] w-full grid grid-cols-1 lg:grid-cols-2 gap-6 border border-black'>
             {
               recipes.map((recipe, idx) => <div style={{ border: '1px solid gray' }} className='space-y-4 rounded-xl shadow-lg p-6 overflow-hidden' key={idx}>
@@ -151,7 +152,7 @@ function App() {
             }
 
           </div>
-          <div className='w-full lg:w-[40%]'>
+          <div style={{ border: '1px solid gray', borderRadius: '16px' }} className='w-full h-fit pb-10 lg:w-[40%]'>
 
             <div>
               <h1 className='text-[24px] font-semibold text-[#282828] text-center'>Want to Cook : {want.length}</h1>
