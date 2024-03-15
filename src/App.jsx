@@ -204,7 +204,7 @@ function App() {
 
                   <tbody>
                     {
-                      preparing.map((recipe, idx) => <tr className='' key={idx}>
+                      preparing.map((recipe, idx) => <tr className='bg-[#f2f2f2]' key={idx}>
                         <td className='p-4'>{idx + 1}</td>
                         <td className='p-4'>{recipe.recipe_name}</td>
                         <td className='p-4'>{recipe.preparing_time} <span>minutes</span></td>
